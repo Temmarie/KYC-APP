@@ -36,14 +36,7 @@ const KYCForm = () => {
   };
 
   const handleSubmit = async () => {
-    // Basic validation
-    if (!formData.fullName || !formData.email || !formData.phoneNumber) {
-      alert("Please fill in all required fields.");
-      return;
-    }
-  
     try {
-      // Simulate form submission (replace with actual API call)
       const response = await fetch("http://localhost:5000/kycData", {
         method: "POST",
         headers: {
@@ -51,18 +44,35 @@ const KYCForm = () => {
         },
         body: JSON.stringify(formData),
       });
-      
   
       if (!response.ok) {
-        throw new Error("Failed to submit form");
+        throw new Error("Failed to submit the form");
       }
   
-      const result = await response.json();
-      console.log("Form submitted successfully:", result);
-      alert("Your KYC form has been submitted successfully!");
+      console.log("Form submitted with data:", formData);
+      alert("Form submitted successfully!");
+  
+      // Reset form data
+      setFormData({
+        fullName: '',
+        dateOfBirth: '',
+        nationality: '',
+        gender: '',
+        email: '',
+        phoneNumber: '',
+        residentialAddress: '',
+        employmentStatus: '',
+        annualIncome: '',
+        sourceOfIncome: '',
+        governmentIdType: '',
+        idNumber: '',
+        idDocument: null,
+      });
+  
+      setCurrentStep(1); // Navigate back to the first step
     } catch (error) {
       console.error("Error submitting form:", error);
-      alert("An error occurred while submitting your form. Please try again.");
+      alert("An error occurred while submitting the form.");
     }
   };
   
