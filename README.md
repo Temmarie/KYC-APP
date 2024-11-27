@@ -26,8 +26,8 @@ This is a **KYC Loan Application Form** built with **React** and styled using **
       <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/financial-info.png" alt="Financial Information" width="100%"/>
     </td>
     <td>
-      <h3>Identityy Verification</h3>
-      <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/financial-info.png" alt="Financial Information" width="100%"/>
+      <h3>Identity Verification</h3>
+      <img src="https://github.com/Temmarie/KYC-APP/blob/feature/src/images/Identity.png" alt="Financial Information" width="100%"/>
     </td>
     </tr>
     <tr>
