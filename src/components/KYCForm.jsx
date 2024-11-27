@@ -34,16 +34,15 @@ const KYCForm = () => {
   const handleEdit = (step) => {
     setCurrentStep(step);
   };
-
   const handleSubmit = async () => {
     try {
-      const response = await fetch("http://localhost:5000/kycData", {
+      const response = await fetch("/api/submitKYC", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
-      });
+      });      
   
       if (!response.ok) {
         throw new Error("Failed to submit the form");
