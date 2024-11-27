@@ -31,6 +31,7 @@ This is a **KYC Loan Application Form** built with **React** and styled using **
     </td>
     </tr>
     <tr>
+    <td>
     <h3>Summary & Review</h3>
       <img src="https://github.com/Temmarie/KYC-APP/blob/feature/src/images/summary.png" alt="Summary Review" width="100%"/>
     </td>
