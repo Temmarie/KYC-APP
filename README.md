@@ -13,17 +13,17 @@ This is a **KYC Loan Application Form** built with **React** and styled using **
   <tr>
     <td>
       <h3>Personal Information</h3>
-      <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/personal-info.png" alt="Personal Information" width="100%"/>
+      <img src="https://github.com/Temmarie/KYC-APP/blob/feature/src/images/personal.png" alt="Personal Information" width="100%"/>
     </td>
     <td>
       <h3>Contact Information</h3>
-      <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/contact-info.png" alt="Contact Information" width="100%"/>
+      <img src="https://github.com/Temmarie/KYC-APP/blob/feature/src/images/contact.png" alt="Contact Information" width="100%"/>
     </td>
   </tr>
   <tr>
     <td>
       <h3>Financial Information</h3>
-      <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/financial-info.png" alt="Financial Information" width="100%"/>
+      <img src="https://github.com/Temmarie/KYC-APP/blob/feature/src/images/finances.png" alt="Financial Information" width="100%"/>
     </td>
     <td>
       <h3>Identity Verification</h3>
@@ -32,7 +32,7 @@ This is a **KYC Loan Application Form** built with **React** and styled using **
     </tr>
     <tr>
     <h3>Summary & Review</h3>
-      <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/summary-review.png" alt="Summary Review" width="100%"/>
+      <img src="https://github.com/Temmarie/KYC-APP/blob/feature/src/images/summary.png" alt="Summary Review" width="100%"/>
     </td>
     </tr>
 </table>
