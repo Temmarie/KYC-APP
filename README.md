@@ -60,6 +60,7 @@ This is a **KYC Loan Application Form** built with **React** and styled using **
 - **TailwindCSS** - A utility-first CSS framework used for styling.
 - **Vite** - A modern build tool to optimize development speed and performance.
 - **Vercel** - A modern deployment tool
+- **ChatGPT**
 
 ## Getting Started
 
@@ -102,5 +103,25 @@ To get a local copy up and running, follow these simple steps.
    ```
    http://localhost:5173
    ```
+
+   ## Author
+
+👤 Grace Tamara Ekunola
+
+- Github: @Temmarie
+- Twitter: @TemmarieW
+- Linkedin: Grace Tife Ekunola
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
 
 ---
