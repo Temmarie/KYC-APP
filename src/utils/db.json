@@ -1,0 +1,36 @@
+{
+  "kycData": [
+    {
+      "id": "bfe9",
+      "fullName": "zxdcfvgbhjkjml",
+      "dateOfBirth": "2024-11-05",
+      "nationality": "AX",
+      "gender": "Male",
+      "email": "TamaraWhyte@outlook.com",
+      "phoneNumber": "07044801394",
+      "residentialAddress": "11/14 Bakare Hassan Street",
+      "employmentStatus": "Employed",
+      "annualIncome": "10k-20k",
+      "sourceOfIncome": "thjkk",
+      "governmentIdType": "Passport",
+      "idNumber": "232jeh2",
+      "idDocument": {}
+    },
+    {
+      "id": "c780",
+      "fullName": "zxdcfvgbhjkjml",
+      "dateOfBirth": "2024-11-05",
+      "nationality": "AX",
+      "gender": "Male",
+      "email": "TamaraWhyte@outlook.com",
+      "phoneNumber": "07044801394",
+      "residentialAddress": "11/14 Bakare Hassan Street",
+      "employmentStatus": "Employed",
+      "annualIncome": "10k-20k",
+      "sourceOfIncome": "thjkk",
+      "governmentIdType": "Passport",
+      "idNumber": "232jeh2",
+      "idDocument": {}
+    }
+  ]
+}
