@@ -34,10 +34,9 @@ const KYCForm = () => {
   const handleEdit = (step) => {
     setCurrentStep(step);
   };
-
   const handleSubmit = async () => {
     try {
-      const response = await fetch("http://localhost:5000/kycData", {
+      const response = await fetch("/api/submitKYC", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -46,9 +45,11 @@ const KYCForm = () => {
       });
   
       if (!response.ok) {
-        throw new Error("Failed to submit the form");
+        const errorData = await response.text(); // Use .text() to check the raw response content
+        throw new Error(`Failed to submit the form: ${errorData || 'Unknown error'}`);
       }
   
+      const responseData = await response.json(); // Now safely parse the JSON
       console.log("Form submitted with data:", formData);
       alert("Form submitted successfully!");
   
@@ -72,9 +73,10 @@ const KYCForm = () => {
       setCurrentStep(1); // Navigate back to the first step
     } catch (error) {
       console.error("Error submitting form:", error);
-      alert("An error occurred while submitting the form.");
+      alert(`An error occurred while submitting the form: ${error.message}`);
     }
   };
+  
   
 
   const stepNames = [
@@ -115,7 +117,7 @@ const KYCForm = () => {
   return (
     <div className="min-h-screen">
       <NavBar />
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row p-2">
         <ProgressBar steps={stepNames} currentStep={currentStep} />
         <div className="flex-1 p-6">
           <h1 className="text-2xl font-bold">
