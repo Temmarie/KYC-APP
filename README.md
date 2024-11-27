@@ -26,11 +26,11 @@ This is a **KYC Loan Application Form** built with **React** and styled using **
       <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/financial-info.png" alt="Financial Information" width="100%"/>
     </td>
     <td>
-    <td>
       <h3>Identityy Verification</h3>
       <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/financial-info.png" alt="Financial Information" width="100%"/>
     </td>
     </tr>
+    <tr>
     <h3>Summary & Review</h3>
       <img src="https://github.com/Temmarie/Your-Repo-Path/blob/main/screenshots/summary-review.png" alt="Summary Review" width="100%"/>
     </td>
