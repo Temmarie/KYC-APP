@@ -3,7 +3,7 @@
 
 # KYC - Loan App
 
-This is a **KYC Loan Application Form** built with **React** and styled using **TailwindCSS**. The app allows users to go through a multi-step process to submit their personal, contact, and financial information for loan application purposes. The form includes input validation, a progress bar, and a summary step for review before submission.
+This is a **KYC Loan Application Form** built with **React** and styled using **TailwindCSS**. The app allows users to go through a multi-step process to submit their personal, contact, and financial information for loan application purposes. The form includes input validation, a progress bar, and a summary step for review with edit features before submission.
 
 ## Live Preview
 [Live Preview](https://kyc-app-kappa.vercel.app//)
@@ -69,8 +69,8 @@ To get a local copy up and running, follow these simple steps.
 1. Clone the repository:
 
    ```
-   git clone https://github.com/Temmarie/KYC-Loan-APP.git
-   cd KYC-Loan-APP
+   git clone https://github.com/Temmarie/KYC-APP.git
+   cd kyc-loan-app
    ```
 
 2. Install dependencies:
